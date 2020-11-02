@@ -27,14 +27,14 @@ public class Test {
     }
 
     public static void main(String args[]) {
-        var Students = Student.Students();
+        var IDNumber = Student.IDNumber();
         System.out.println("Specified array:");
-        for (int i=0; i<Students.length; i++)
-            System.out.println(Students[i]);
+        for (int i=0; i<IDNumber.length; i++)
+            System.out.println(IDNumber[i]);
         System.out.println("\nSorted array:");
-        Reverse(Students);
-        InsertionSort(Students);
-        for (int i=0; i<Students.length; i++)
-            System.out.println(Students[i]);
+        Reverse(IDNumber);
+        InsertionSort(IDNumber);
+        for (int i=0; i<IDNumber.length; i++)
+            System.out.println(IDNumber[i]);
     }
 }

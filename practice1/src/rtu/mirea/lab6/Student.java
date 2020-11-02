@@ -31,15 +31,15 @@ public class Student {
     static String[] names = new String[]{"Nancy","Terry","Trey","Fletch","Brad"};
     static String[] surnames = new String[]{"Alderson","Nerty","Drew","Paultry","Merty"};
 
-    public static Student[] Students(){
-        var Students = new Student[10];
+    public static Student[] IDNumber(){
+        var IDNumber = new Student[10];
         for (int i = 0; i < 10; i++) {
             var Student = new Student();
             Student.setID(i*60%17);
             Student.setName(names[i%names.length]);
             Student.setSurname(surnames[i%surnames.length]);
-            Students[i]=Student;
+            IDNumber[i]=Student;
         }
-        return Students;
+        return IDNumber;
     }
 }
