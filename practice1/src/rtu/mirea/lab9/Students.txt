@@ -1,0 +1,6 @@
+{ name='Martin', grade=4}
+{ name='Bella', grade=3}
+{ name='Leila', grade=9}
+{ name='Terry', grade=10}
+{ name='Billy', grade=1}
+{ name='Max', grade=2}
